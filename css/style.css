@@ -148,6 +148,8 @@ header {
 /* Texto Hero */
 .hero-text {
     color: #fff; 
+    font-weight: bolder;
+    text-align: center;
     background-color: #1dd1a179;
     padding: 30PX;
     border-radius: 80PX;
