@@ -64,12 +64,46 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
     color: #fff;
     border: none;
     box-shadow: 0 10px 25px rgba(108, 92, 231, 0.4);
+    display: inline-flex;      
+    align-items: center;       
+    justify-content: center;   
+    gap: 10px;  
 }
 
 .btn-gradient:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 30px rgba(108, 92, 231, 0.6);
 }
+
+.btn-gradient img {
+    width: 24px;      
+    height: auto;
+    margin-right: 10px; 
+}
+
+.download-item {
+    margin-bottom: 40px;
+}
+
+.download-item p {
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+#connet-link{
+    background-color: rgb(44, 126, 241);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+#connet-link:hover{
+    background-color: rgb(83, 133, 202);
+    padding: 17px;
+}
+
+
 
 /* --- HEADER (LARGURA TOTAL) --- */
 header {
@@ -265,7 +299,7 @@ header {
 
 /* --- FOOTER (ARCO PERFEITO / AFUNILADO) --- */
 footer {
-    background-color: #000;
+    background-color: #2a4090;
     color: #fff;
     
     /* Espaçamento interno maior no topo para o conteúdo descer e não ficar na curva */
@@ -300,9 +334,9 @@ footer {
     transition: transform 0.3s;
 }
 .social-icon:hover { transform: scale(1.1); }
-.fb { background: #1dd1a1; }
-.in { background: #ff6b6b; }
-.tw { background: #feca57; }
+
+.in { background: #060101; }
+
 
 .footer-links {
     display: flex; gap: 30px;
@@ -330,13 +364,12 @@ footer {
     width: 70px; height: 70px;
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    color: #d72020; font-weight: bold;
     font-size: 1.2rem;
     transition: transform 0.3s;
 }
 .social-icon:hover { transform: scale(1.1); }
 
-.ig { background: #ff6b6b; }
+.ig { background: #f65151; }
 
 
 .footer-links {
@@ -344,7 +377,7 @@ footer {
     font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px;
 }
 
-.copyright { font-size: 0.9rem; color: #666; margin-top: 20px; }
+.copyright { font-size: 0.9rem; color: #ffffff; margin-top: 20px; }
 
 /* --- RESPONSIVIDADE --- */
 @media (min-width: 1600px) {
